@@ -20,7 +20,7 @@ router.get("/base", async (req, res) => {
   res.send(contacts);
 });
 
-router.get("/", (req, res) => res.send("inicio"));
+router.get("/", (req, res) => res.send("inicio Entrado"));
 router.get("/registro",registro )
 
 
