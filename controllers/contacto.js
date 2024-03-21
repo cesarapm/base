@@ -9,11 +9,7 @@ import { db } from "../firebase.js";
     console.log('Empezando Compra');
 
     
- console.log(process.env.GOOGLE_APPLICATION_CREDENTIALS);
-    
-
-
-
+ console.log(process.env.GOOGLE_APPLICATION_CREDENTIALS);  
     res.send("empezando")
    
 

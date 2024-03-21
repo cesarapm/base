@@ -27,7 +27,7 @@ router.get("/registro",registro )
 
 const vcardContent = vcard.generate({
   name: {
-    familyName: 'Cristina Hernández',
+    familyName: 'Juan Pablo Estrada Zapata',
     // givenName: 'Cesar Ramos',
     // middleName: 'Philip',
     // prefix: 'Dr.',
@@ -51,13 +51,13 @@ const vcardContent = vcard.generate({
   },
  
   works: [{
-    organization: 'SERVIRAM',
-    title: 'Ventas',
-    role: 'Ventas',
+    organization: 'Lyon Cash',
+    title: '',
+    role: 'Financial Advisor',
   }],
   emails: [{
     type: 'work',
-    text: 'cristina.hernandez@serviram.com.mx',
+    text: 'jpestrada@lyoncash.mx',
   }
   // ,{
   //   type: 'home',
@@ -68,7 +68,7 @@ const vcardContent = vcard.generate({
 ],
   phones: [{
     type: 'work',
-    text: '5214442772761',
+    text: '4401913459',
   }
   
   // , {
@@ -80,10 +80,10 @@ const vcardContent = vcard.generate({
 ],
   addresses: [{
     type: 'work',
-    street: 'Lago de Xochimilco #336',
-    locality: 'Col. San Luis Rey',
-    region: 'S.L.P',
-    code: '78350',
+    street: 'Av. peñuelas 15, Int 101-A  76146',
+    locality: 'Peñuelas',
+    region: 'Queretaro',
+    code: '76146',
     country: 'MEXICO',
   }
   // , {

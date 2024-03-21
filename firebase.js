@@ -8,10 +8,6 @@ initializeApp({
   credential: applicationDefault(),
 });
 
-
-
-
-
 const db = getFirestore();
 
 export { db };
